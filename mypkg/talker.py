@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2023 Ryousuke Ochiai 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
+
 import rclpy                     #ROS 2のクライアントのためのライブラリ
 from rclpy.node import Node      #ノードを実装するためのNodeクラス（クラスは第10回で）
 from std_msgs.msg import Int16   #通信の型（16ビットの符号付き整数）
