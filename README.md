@@ -7,13 +7,71 @@
 0.5秒ごとに16ビット符号つき整数をカウントしてトピック"countup"を通じてパブリッシュ
 
 ## listener.py
-トピック"countup"からの表示をサブスクライブして表示
+トピック"countup"からのデータをサブスクライブしてログを表示
 
 ## トピック
 ### countup
  "talker.py" ノードが生成した整数情報を "listener.py" ノードが受け取り、それをログに表示するための通信経路
 
 ## 実行例
+
+### 例1
+
+### 入力
+#### 端末1
+
+```
+$ ros2 run mypkg talker
+```
+
+#### 端末2
+
+```
+$ ros2 topic echo /countup
+```
+
+
+### 出力
+
+```
+data: 42
+---
+data: 43
+---
+data: 44
+---
+data: 45
+---
+data: 46
+---
+```
+
+### 例2
+
+### 入力
+#### 端末1
+
+```
+$ ros2 run mypkg talker
+```
+
+#### 端末2
+
+```
+$ ros2 run mypkg listener
+```
+
+
+### 出力
+
+```
+[INFO] [1703690386.659035596] [listener]: Listen: 454
+[INFO] [1703690387.145821959] [listener]: Listen: 455
+[INFO] [1703690387.645278088] [listener]: Listen: 456
+[INFO] [1703690388.143128216] [listener]: Listen: 457
+[INFO] [1703690388.640975790] [listener]: Listen: 458
+```
+
 
 ## 必要なソフトウェア
 * Python
