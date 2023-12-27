@@ -3,18 +3,23 @@
 
 ### ロボットシステム学2023 課題2 提出用リポジトリ
 
+
 ## talker.py
 0.5秒ごとに16ビット符号つき整数をカウントしてトピック"countup"を通じてパブリッシュ
+
 
 ## listener.py
 トピック"countup"からのデータをサブスクライブしてログを表示
 
+
 ## talk_listen.launch.py
 talker.pyとlistener.pyを実行
+
 
 ## トピック
 ### countup
  "talker.py" ノードが生成した整数情報を "listener.py" ノードが受け取り、それをログに表示するための通信経路
+
 
 ## 実行例
 
@@ -109,9 +114,11 @@ $ ros2 launch mypkg talk_listen.launch.p
 * Python
 * Ubuntu 20.04
 
+
 ## テスト環境
 テストには以下のコンテナを使用しています
 * [ryuichiueda/ubuntu22.04-ros2](https://hub.docker.com/r/ryuichiueda/ubuntu22.04-ros2)
+
 
 ## ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
