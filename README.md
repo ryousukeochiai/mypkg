@@ -9,6 +9,9 @@
 ## listener.py
 トピック"countup"からのデータをサブスクライブしてログを表示
 
+## talk_listen.launch.py
+talker.pyとlistener.pyを実行
+
 ## トピック
 ### countup
  "talker.py" ノードが生成した整数情報を "listener.py" ノードが受け取り、それをログに表示するための通信経路
@@ -44,7 +47,9 @@ data: 45
 ---
 data: 46
 ---
+・・・
 ```
+
 
 ### 例2
 
@@ -70,10 +75,37 @@ $ ros2 run mypkg listener
 [INFO] [1703690387.645278088] [listener]: Listen: 456
 [INFO] [1703690388.143128216] [listener]: Listen: 457
 [INFO] [1703690388.640975790] [listener]: Listen: 458
+・・・
 ```
 
 
-## 必要なソフトウェア
+
+### 例3
+
+### 入力
+
+```
+$ ros2 launch mypkg talk_listen.launch.p
+```
+
+### 出力
+
+```
+[INFO] [launch]: All log files can be found below /home/ryousuke/.ros/log/2023-12-28-00-30-38-081232-dynabook0614-2205
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [2207]
+[INFO] [listener-2]: process started with pid [2209]
+[listener-2] [INFO] [1703691039.069808334] [listener]: Listen: 0
+[listener-2] [INFO] [1703691039.551775082] [listener]: Listen: 1
+[listener-2] [INFO] [1703691040.051774291] [listener]: Listen: 2
+[listener-2] [INFO] [1703691040.551301372] [listener]: Listen: 3
+[listener-2] [INFO] [1703691041.052199121] [listener]: Listen: 4
+[listener-2] [INFO] [1703691041.551767608] [listener]: Listen: 5
+・・・
+```
+
+
+## 動作確認済み環境
 * Python
 * Ubuntu 20.04
 
