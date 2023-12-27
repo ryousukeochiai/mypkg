@@ -18,7 +18,7 @@ talker.pyとlistener.pyを実行
 
 ## 実行例
 
-### 例1
+### 例1 (端末2つ使用 , talker.pyを実行)
 
 ### 入力
 #### 端末1
@@ -51,7 +51,7 @@ data: 46
 ```
 
 
-### 例2
+### 例2　(端末2つ使用 , talker.py&listener.pyを実行)
 
 ### 入力
 #### 端末1
@@ -80,7 +80,7 @@ $ ros2 run mypkg listener
 
 
 
-### 例3
+### 例3　(端末1つ使用 , talker.py&listener.pyを実行)
 
 ### 入力
 
