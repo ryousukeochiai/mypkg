@@ -1,5 +1,12 @@
 # mypkg
 [![test](https://github.com/ryousukeochiai/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/ryousukeochiai/mypkg/actions/workflows/test.yml)
+ロボットシステム学2023 課題2用
+
+## talker.py
+
+## listener.py
+
+## 実行例
 
 ## 必要なソフトウェア
 * Python
