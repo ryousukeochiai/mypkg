@@ -1,12 +1,17 @@
 # mypkg
 [![test](https://github.com/ryousukeochiai/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/ryousukeochiai/mypkg/actions/workflows/test.yml)
-ロボットシステム学2023 課題2 提出用リポジトリ
+
+### ロボットシステム学2023 課題2 提出用リポジトリ
 
 ## talker.py
 0.5秒ごとに16ビット符号つき整数をカウントしてトピック"countup"を通じてパブリッシュ
 
 ## listener.py
 トピック"countup"からの表示をサブスクライブして表示
+
+## トピック
+### countup
+ "talker.py" ノードが生成した整数情報を "listener.py" ノードが受け取り、それをログに表示するための通信経路
 
 ## 実行例
 
