@@ -15,7 +15,7 @@ talker.pyとlistener.pyを実行
 
 ## トピック
 ### countup
- "talker.py" ノードが生成した整数情報を "listener.py" ノードが受け取り、それをログに表示するための通信経路
+ "talker.py" ノードが生成した16ビット符号つきの整数情報を "listener.py" ノードが受け取り、それをログに表示するための通信経路
 
 ## 実行例
 
