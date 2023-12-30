@@ -2,7 +2,7 @@
 [![test](https://github.com/ryousukeochiai/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/ryousukeochiai/mypkg/actions/workflows/test.yml)
 
 ### ロボットシステム学2023 課題2 提出用リポジトリ
-このリポジトリはtalkerとlistener間で通信を行うROS2のパッケージです
+このリポジトリはtalkerとlistener間で通信を行うROS2のパッケージです.
 
 ## talker.py
 0.5秒ごとに16ビット符号つき整数をカウントしてトピック"countup"を通じてパブリッシュ
@@ -113,7 +113,7 @@ $ ros2 launch mypkg talk_listen.launch.p
 
 
 ## テスト環境
-テストには以下のコンテナを使用しています
+テストには以下のコンテナを使用しています.
 * [ryuichiueda/ubuntu22.04-ros2](https://hub.docker.com/r/ryuichiueda/ubuntu22.04-ros2)
 
 
