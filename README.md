@@ -86,7 +86,7 @@ $ ros2 run mypkg listener
 ### 入力
 
 ```
-$ ros2 launch mypkg talk_listen.launch.p
+$ ros2 launch mypkg talk_listen.launch.py
 ```
 
 ### 出力
@@ -108,7 +108,7 @@ $ ros2 launch mypkg talk_listen.launch.p
 
 ## 動作確認済み環境
 * Python
-* Ubuntu 20.04
+* Ubuntu 20.04.5 LTS
 * ROS 2 Foxy
 
 
