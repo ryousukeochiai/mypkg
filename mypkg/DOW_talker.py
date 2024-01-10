@@ -16,6 +16,6 @@ def cb():
     pub.publish(msg)
     d += 1
 
-node.create_timer((0.1, cb)
+node.create_timer(0.1, cb)
 rclpy.spin(node)
 
