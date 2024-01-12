@@ -2,7 +2,7 @@
 [![test](https://github.com/ryousukeochiai/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/ryousukeochiai/mypkg/actions/workflows/test.yml)
 
 ### ロボットシステム学2023 課題2 提出用リポジトリ
-このリポジトリはtalkerとlistener間、DOW_talkerとDOW_listener間でそれぞれ通信を行うROS 2のパッケージです.
+このリポジトリはtalkerとlistener間，DOW_talkerとDOW_listener間でそれぞれ通信を行うROS 2のパッケージです.
 talkerとlistener間ではトピック"countup"，DOW_talkerとDOW_listener間ではトピック"date"を使用しています.
 
 ## talker.py
