@@ -3,7 +3,7 @@
 
 ### ロボットシステム学2023 課題2 提出用リポジトリ
 このリポジトリはtalkerとlistener間、DOW_talkerとDOW_listener間でそれぞれ通信を行うROS 2のパッケージです.
-talkerとlistener間ではトピック"countup"、DOW_talkerとDOW_listener間ではトピック"date"を使用しています.
+talkerとlistener間ではトピック"countup",DOW_talkerとDOW_listener間ではトピック"date"を使用しています.
 
 ## talker.py
 0.5秒ごとに16ビット符号つき整数をカウントしてトピック"countup"を通じてパブリッシュ
@@ -16,7 +16,8 @@ talkerとlistener間ではトピック"countup"、DOW_talkerとDOW_listener間�
 
 ## DOW_listener.py
 トピック"date"からのデータをサブスクライブしメッセージが含む数値(d)を日数として現在の日時に加算
-その後、計算したd日後の日時と曜日をログとして表示
+
+その後，計算したd日後の日時と曜日をログとして表示
 
 ## talk_listen.launch.py
 talker.pyとlistener.pyを実行
@@ -26,10 +27,10 @@ DOW_talker.pyとDOW_listener.pyを実行
 
 ## トピック
 ### countup
- "talker.py" ノードが生成した16ビット符号つきの整数情報を "listener.py" ノードが受け取り、それをログに表示するための通信経路
+ "talker.py" ノードが生成した16ビット符号つきの整数情報を "listener.py" ノードが受け取り，それをログに表示するための通信経路
 
 ### date
- "DOW_talker.py" ノードが生成した16ビット符号つきの整数情報を "DOW_listener.py" ノードが受け取り、計算結果をログに表示するための通信経路
+ "DOW_talker.py" ノードが生成した16ビット符号つきの整数情報を "DOW_listener.py" ノードが受け取り，計算結果をログに表示するための通信経路
 
 ## 実行例
 
