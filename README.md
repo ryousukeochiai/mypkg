@@ -204,7 +204,7 @@ $ ros2 launch mypkg DOW_talk_listen.launch.py
 * Operating System
    * Ubuntu 22.04.3 LTS
 * Runner Image
-   * 20240107.1.0
+   * Ubuntu 22.04 (version:20240107.1.0)
 
 
 ## テスト環境
