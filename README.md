@@ -199,6 +199,12 @@ $ ros2 launch mypkg DOW_talk_listen.launch.py
 * Python 3.8.10
 * Ubuntu 20.04.5 LTS
 * ROS 2 Foxy
+#### GitHub Actions
+* Current runner version 2.311.0
+* Operating System
+ * Ubuntu 22.04.3 LTS
+* Runner Image
+ * 20240107.1.0
 
 
 ## テスト環境
